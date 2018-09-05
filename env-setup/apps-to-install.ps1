@@ -1,5 +1,4 @@
 ## FIRST install IIS as a feature in windows.
-##  Plugins: Re-attach. Title-bar grejen. Coloured output-grejen. MD-file reader, CodeMaid
 
 choco install keepass
 choco install keepass-keepasshttp
@@ -29,3 +28,13 @@ choco install visualstudio2017-workload-universal
 choco install visualstudio2017enterprise
 choco install slack
 choco install vscode
+
+##  Visual studio plugins:
+# Github Extension
+# CodeMaid
+# ReAttach https://marketplace.visualstudio.com/items?itemName=ErlandR.ReAttach
+# Customize Visual Studio Window Title https://marketplace.visualstudio.com/items?itemName=mayerwin.RenameVisualStudioWindowTitle
+# VsColorOutput https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput
+# Markdown Editor https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor
+# Add new file https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile
+# Open command line https://marketplace.visualstudio.com/items?itemName=MadsKristensen.OpenCommandLine
