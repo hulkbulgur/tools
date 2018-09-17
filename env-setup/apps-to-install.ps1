@@ -1,5 +1,11 @@
 ## FIRST install IIS as a feature in windows.
 
+## Install chocolatey itself
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+## Prevent having to confirm each package
+choco feature enable -n allowGlobalConfirmation
+
 choco install keepass
 choco install keepass-keepasshttp
 choco install git
