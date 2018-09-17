@@ -1,0 +1,1 @@
+iex ((new-object net.webClient).DownloadString('https://raw.githubusercontent.com/hulkbulgur/tools/master/env-setup/apps-to-install.ps1'))
