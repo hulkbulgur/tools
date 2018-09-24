@@ -8,8 +8,8 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 ## Prevent having to confirm each package
 choco feature enable -n allowGlobalConfirmation
 
-choco install webdeploy /y
-choco install urlrewrite /y
+choco install webdeploy
+choco install urlrewrite
 choco install keepass
 choco install keepass-keepasshttp
 choco install git
