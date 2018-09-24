@@ -1,11 +1,15 @@
-## FIRST install IIS as a feature in windows.
+# IMPROVEMENTS
+# Add windows feature internet information services
+# Set default browser to chrome.
 
 ## Install chocolatey itself
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 ## Prevent having to confirm each package
 choco feature enable -n allowGlobalConfirmation
 
+choco install webdeploy /y
+choco install urlrewrite /y
 choco install keepass
 choco install keepass-keepasshttp
 choco install git
@@ -18,7 +22,6 @@ choco install fiddler
 choco install resharper-platform
 choco install mremoteng
 choco install nodejs
-choco install urlrewrite
 choco install postman
 choco install wunderlist
 choco install whatsapp
@@ -34,6 +37,9 @@ choco install visualstudio2017-workload-universal
 choco install visualstudio2017enterprise
 choco install slack
 choco install vscode
+choco install office365business
+choco install vlc
+choco install sql-server-management-studio
 
 ##  Visual studio plugins:
 # Github Extension
