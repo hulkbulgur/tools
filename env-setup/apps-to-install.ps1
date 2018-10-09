@@ -19,7 +19,7 @@ choco install dropbox
 choco install 7zip
 choco install GoogleChrome
 choco install fiddler
-choco install resharper-platform
+choco install resharper --pre
 choco install mremoteng
 choco install nodejs
 choco install postman
