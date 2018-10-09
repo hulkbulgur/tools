@@ -19,7 +19,6 @@ choco install dropbox
 choco install 7zip
 choco install GoogleChrome
 choco install fiddler
-choco install resharper --pre
 choco install mremoteng
 choco install nodejs
 choco install postman
@@ -34,7 +33,7 @@ choco install visualstudio2017-workload-netcrossplat
 choco install visualstudio2017-workload-netweb
 choco install visualstudio2017-workload-office
 choco install visualstudio2017-workload-universal
-choco install visualstudio2017enterprise
+choco install resharper --pre
 choco install slack
 choco install vscode
 choco install office365business
