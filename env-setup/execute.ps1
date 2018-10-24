@@ -3,4 +3,5 @@
 
 Set-ExecutionPolicy Bypass -Scope Process -Force;
 iex ((new-object net.webClient).DownloadString('https://raw.githubusercontent.com/hulkbulgur/tools/master/env-setup/setup-iis.ps1'))
-iex ((new-object net.webClient).DownloadString('https://raw.githubusercontent.com/hulkbulgur/tools/master/env-setup/apps-to-install.ps1'))
+iex ((new-object net.webClient).DownloadString('https://raw.githubusercontent.com/hulkbulgur/tools/master/env-setup/install-applications.ps1'))
+iex ((new-object net.webClient).DownloadString('https://raw.githubusercontent.com/hulkbulgur/tools/master/env-setup/setup-windows.ps1'))
