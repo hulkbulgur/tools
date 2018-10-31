@@ -14,7 +14,7 @@ choco install keepass
 choco install keepass-keepasshttp
 choco install git
 choco install notepadplusplus
-choco install spotify
+choco install spotify --ignore-checksum
 choco install dropbox
 choco install 7zip
 choco install GoogleChrome
@@ -39,6 +39,10 @@ choco install vscode
 choco install office365business
 choco install vlc
 choco install sql-server-management-studio
+
+# No working version of the following
+# choco install microsoftazurestorageexplorer --ignore-checksum
+# choco install azurestorageemulator
 
 ##  Visual studio plugins:
 # Github Extension
