@@ -45,8 +45,8 @@ choco install sql-server-management-studio
 # choco install azurestorageemulator
 
 ##  Visual studio plugins:
-# Github Extension
-# CodeMaid
+# Github Extension https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio
+# CodeMaid https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid
 # ReAttach https://marketplace.visualstudio.com/items?itemName=ErlandR.ReAttach
 # Customize Visual Studio Window Title https://marketplace.visualstudio.com/items?itemName=mayerwin.RenameVisualStudioWindowTitle
 # VsColorOutput https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput
