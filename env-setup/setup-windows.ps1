@@ -11,10 +11,15 @@ Push-Location
 
 # Set standby after 5 hours when plugged in
 Powercfg /Change standby-timeout-ac 300
-	
+
+# Add wifi profile for bulgurcell
+(new-object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/hulkbulgur/tools/master/env-setup/bulgurcell.xml", "$env:temp\bulgurcell.xml")
+netsh wlan add profile filename="$env:temp\bulgurcell.xml"
+Remove-Item –path "$env:temp\bulgurcell.xml"
+
 # Setup displays
 # Log in dropbox
-# Put keepass, chrome, spotify, visual studio (admin), vs code in quick start field
+# Put keepass, chrome, spotify, visual studio (admin), vs code, mRemoteNg in quick start field
 # Remove edge from quick start field
 # Set chrome to default browser
 # Set keepasshttp always allow entries
@@ -22,7 +27,3 @@ Powercfg /Change standby-timeout-ac 300
 # Chrome, turn off save passwords setting
 # Chrome set translation settings
 # Remove mail from the quick start field
-
-
-# Add wifi profile for bulgurcell
-netsh wlan add profile filename="C:\path\WifiNetwork.xml"
