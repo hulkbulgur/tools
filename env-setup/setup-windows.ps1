@@ -27,3 +27,4 @@ Remove-Item –path "$env:temp\bulgurcell.xml"
 # Chrome, turn off save passwords setting
 # Chrome set translation settings
 # Remove mail from the quick start field
+# Turn off language bar hot keys (I don't want ctrl+shift to change language)
