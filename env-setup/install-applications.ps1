@@ -39,6 +39,7 @@ choco install vscode
 choco install office365business
 choco install vlc
 choco install sql-server-management-studio
+choco install foxitreader
 
 # No working version of the following
 # choco install microsoftazurestorageexplorer --ignore-checksum
