@@ -54,3 +54,4 @@ choco install foxitreader
 # Markdown Editor https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor
 # Add new file https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile
 # Open command line https://marketplace.visualstudio.com/items?itemName=MadsKristensen.OpenCommandLine
+# Productivity power tools
