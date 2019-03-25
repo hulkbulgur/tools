@@ -1,5 +1,4 @@
 # IMPROVEMENTS
-# Add windows feature internet information services
 # Set default browser to chrome.
 
 ## Install chocolatey itself
