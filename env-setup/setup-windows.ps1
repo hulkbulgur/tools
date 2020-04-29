@@ -1,7 +1,7 @@
-md -Force c:\code\bitbucket
-md -Force c:\code\gitlabt37
-md -Force c:\code\github
-md -Force c:\code\elon
+mkdir -Force c:\code\bitbucket
+mkdir -Force c:\code\gitlabt37
+mkdir -Force c:\code\github
+mkdir -Force c:\code\elon
 
 # Add windows defender exclusion path for code directory
 Add-MpPreference -exclusionpath "c:\code"

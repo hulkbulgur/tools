@@ -1,45 +1,27 @@
-# IMPROVEMENTS
-# Set default browser to chrome.
-
 ## Install chocolatey itself
-iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-## Prevent having to confirm each package
-choco feature enable -n allowGlobalConfirmation
-
-choco install webdeploy
-choco install urlrewrite
-choco install keepass
-choco install keepass-keepasshttp
-choco install git
-choco install notepadplusplus
-choco install spotify --ignore-checksum
-choco install dropbox
-choco install 7zip
-choco install GoogleChrome
-choco install fiddler
-choco install mremoteng
-choco install nodejs
-choco install postman
-choco install wunderlist
-choco install whatsapp
-choco install resharper --pre
-choco install slack
-choco install vscode
-choco install office365business
-choco install vlc
-choco install sql-server-management-studio
-choco install foxitreader
-choco install firefox
-choco install logparser
-
-##  Visual studio plugins:
-# https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio
-# https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid
-# https://marketplace.visualstudio.com/items?itemName=ErlandR.ReAttach
-# https://marketplace.visualstudio.com/items?itemName=mayerwin.RenameVisualStudioWindowTitle
-# https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput
-# https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor
-# https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile
-# https://marketplace.visualstudio.com/items?itemName=MadsKristensen.OpenCommandLine
-# https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017
+choco install webdeploy /y
+choco install urlrewrite /y
+choco install keepass /y
+choco install keepass-keepasshttp /y
+choco install git /y
+choco install notepadplusplus /y
+choco install spotify --ignore-checksum /y
+choco install dropbox /y
+choco install 7zip /y
+choco install GoogleChrome /y
+choco install fiddler /y
+choco install mremoteng /y
+choco install nodejs /y
+choco install postman /y
+choco install wunderlist /y
+choco install whatsapp /y
+choco install slack /y
+choco install vscode /y
+choco install office365business /y
+choco install vlc /y
+choco install sql-server-management-studio /y
+choco install foxitreader /y
+choco install firefox /y
+choco install jetbrains-rider /y
